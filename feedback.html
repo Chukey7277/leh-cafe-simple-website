@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feedback | Leh Café</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>💬 We Value Your Feedback</h1>
+    <nav class="top-nav">
+      <a href="index.html">← Back to Home</a>
+    </nav>
+  </header>
+
+  <section class="feedback">
+    <form action="https://formspree.io/f/xdkpqynb" method="POST">
+      <p><strong>How would you rate our food?</strong></p>
+      <div class="scale">
+        <label><input type="radio" name="food" value="1" required>1</label>
+        <label><input type="radio" name="food" value="2">2</label>
+        <label><input type="radio" name="food" value="4">4</label>
+        <label><input type="radio" name="food" value="5">5</label>
+      </div>
+
+      <p><strong>How was the service?</strong></p>
+      <div class="scale">
+        <label><input type="radio" name="service" value="1" required>1</label>
+        <label><input type="radio" name="service" value="2">2</label>
+        <label><input type="radio" name="service" value="3">3</label>
+        <label><input type="radio" name="service" value="4">4</label>
+        <label><input type="radio" name="service" value="5">5</label>
+      </div>
+
+      <p><strong>Any additional comments:</strong></p>
+      <textarea name="comments" rows="4" placeholder="Write your thoughts..."></textarea>
+
+      <button type="submit">Submit Feedback</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Ladakhi Mountain Café by Padma Dolma | Tia</p>
+  </footer>
+</body>
+</html>
